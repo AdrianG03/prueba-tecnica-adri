@@ -19,7 +19,7 @@ function ListaAlumnos() {
   if (error) return <p>Error al cargar los datos: {error.message}</p>;
 
   return (
-    <div>
+    <div style={{width: screen, textAlign: 'center'}}>
       <h1>Lista de Alumnos</h1>
       <ul>
         {data.map((alumno) => (
